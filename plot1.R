@@ -4,7 +4,7 @@ Index <- as.character(Entire.Data$Date) == "1/2/2007" | as.character(Entire.Data
 
 DataSet <- Entire.Data[Index, ]
 
-png(filename = "plot2.png")
+png(filename = "plot1.png")
 
 hist(DataSet$Global_active_power, main = "Global Active Power", xlab = "Global Active Power (kilowatts)", col = "red") 
 
